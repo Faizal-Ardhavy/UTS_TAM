@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvTitleNotes"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Nim"
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"/>
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:background="@color/white"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/plus_icon"
+        android:layout_marginStart="10dp"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="0dp" />
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:scaleX="0.6"
+        android:scaleY="0.09"
+        android:src="@drawable/minus"
+        android:layout_marginEnd="10dp"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="0dp"/>
+</LinearLayout>

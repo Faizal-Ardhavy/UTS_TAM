@@ -31,7 +31,7 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.TodoViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull TodoViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull TodoAdapter.TodoViewHolder holder, int position) {
         if(listTask != null){
             ListPlan task = listTask.get(position);
             holder.todoTask.setText(task.getTask());

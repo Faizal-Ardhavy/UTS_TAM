@@ -19,7 +19,7 @@ public class popup_addplan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.planner_todo_layout);
+        setContentView(R.layout.activity_popup_addplan);
         btnCancel = findViewById(R.id.btnCancel);
         addTodo = (EditText) findViewById(R.id.addTodo);
         btnAddPlan = findViewById(R.id.btnAddPlan);

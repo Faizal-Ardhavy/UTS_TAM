@@ -67,5 +67,53 @@
                 android:src="@drawable/note"/>
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btnFastAction"
+                android:layout_width="150dp"
+                android:layout_height="175dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                app:srcCompat="@drawable/fast_action_128px" />
+
+            <ImageButton
+                android:id="@+id/btnReminder"
+                android:layout_width="150dp"
+                android:layout_height="175dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:background="@color/white"
+                app:srcCompat="@drawable/reminder_128px" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/backup"
+                android:layout_width="114dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="#006E7F"
+                android:text="Backup"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/restore"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#006E7F"
+                android:text="Restore"
+                android:textColor="@color/white"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
     </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

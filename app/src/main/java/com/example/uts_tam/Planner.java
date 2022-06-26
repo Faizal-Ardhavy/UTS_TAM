@@ -34,6 +34,10 @@ public class Planner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planner);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_planner); // get the reference of Toolbar
+        setSupportActionBar(toolbar); // Setting/replace toolbar as the ActionBar
+        getSupportActionBar().setDisplayShowTitleEnabled(false); // hide the current title from the Toolbar
+
         addPlan = findViewById(R.id.addPlan);
         goReminder = findViewById(R.id.goReminder);
         goReminder.setOnClickListener(new View.OnClickListener() {

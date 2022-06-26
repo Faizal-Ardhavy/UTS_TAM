@@ -28,3 +28,4 @@ public interface ListPlanDAO {
     @Update
     void update(ListPlan listPlan);
 }
+
